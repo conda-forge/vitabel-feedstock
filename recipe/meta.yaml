@@ -1,5 +1,5 @@
 {% set name = "vitabel" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/vitabel-{{ version }}.tar.gz
-  sha256: c94f0fe7b9869d2311b4d5de39c79e6b587538f14ed7e31c68fff5d997e6475f
+  sha256: 02f40a19510156922b34a670b305d75857db31e96ecd3c78329c19a106ed4052
 
 build:
   noarch: python
